@@ -161,7 +161,7 @@
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
       <version>3.3.1.GA</version>
-      <!-- God, what is it with Java and logging frameworks... http://forum.hibernate.org/viewtopic.php?p=2401380 -->
+      <!-- God, what is it with Java and logging frameworks.. http://forum.hibernate.org/viewtopic.php?p=2401380 -->
       <exclusions>
         <exclusion>
           <groupId>org.slf4j</groupId>
