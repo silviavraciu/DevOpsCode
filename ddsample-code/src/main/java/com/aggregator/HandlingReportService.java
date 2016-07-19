@@ -30,6 +30,7 @@ public interface HandlingReportService {
     @WebMethod
     @RequestWrapper(localName = "submitReport", targetNamespace = "http://ws.handling.interfaces.dddsample.citerus.se/", className = "com.aggregator.SubmitReport")
     @ResponseWrapper(localName = "submitReportResponse", targetNamespace = "http://ws.handling.interfaces.dddsample.citerus.se/", className = "com.aggregator.SubmitReportResponse")
+	
     public void submitReport(
         @WebParam(name = "arg0", targetNamespace = "")
         HandlingReport arg0)
